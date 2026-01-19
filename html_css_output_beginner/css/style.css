@@ -29,7 +29,6 @@
 
 .header nav {
     display: flex;
-    margin-top: 5px;
     gap: 20px;
 }
 
@@ -67,7 +66,6 @@
 }
 
 .introduce_photo img{
-    margin: 0 100px;
     border-radius: 9999px;
 }
 
@@ -75,10 +73,16 @@
     margin-bottom: 100px;
 }
 
+.profiles{
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
 .profile_title{
     font-size: 1.2em;
     font-weight: bolder;
-    margin: 20px 0;
+    margin-bottom: 20px;
 }
 
 .profile_text{
@@ -123,12 +127,8 @@
         text-align: start;        
     }
 
-    .introduce_photo img{
-        margin: 0 80%;
-    }
-
     .profiles{
         display: flex;
-        gap: 20px;
+        flex-direction: row;
     }
 }
